@@ -1,0 +1,29 @@
+.container{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bar{
+    width: 10px;
+    background-color: black;
+    margin: 1px;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+button{
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    margin: 5px
+
+}
+
